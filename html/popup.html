@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+        <div class="container-password-generator text-center pt-3 pb-3">
+            <div>
+                <h6 id="textSizePassword"></h6>
+                <input type="range" id="inputSizePassword" min="8" max="40" value="24" />
+            </div>
+            <div class="pt-1 pb-3">
+                <h6 class="text-password d-inline font-weight-bold" id="textPassword"></h6>
+            </div>
+            <div>
+                <button type="button" class="btn btn-info" id="btnGeneratePassword">Generate password</button>
+            </div>
+            <script src="../js/popup.js"></script>
+        </div>
+    </body>
+</html>
